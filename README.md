@@ -33,25 +33,8 @@ reboot
 - Последующие обновления файлом openwrt-xxx-sysupgrade.bin в интерфейсе во вкладке System -> Backup / Flash Firmware -> Flash new firmware image
 - В случае неудачи - [возврат на сток через UART](https://4pda.to/forum/index.php?s=&showtopic=736801&view=findpost&p=50915904).
 
-## Acknowledgments
-
-- [P3TERX/Actions-OpenWrt](https://github.com/P3TERX/Actions-OpenWrt)
-- [Aelliari/xwrt_action](https://github.com/Aelliari/xwrt_action)
-- [Microsoft Azure](https://azure.microsoft.com)
-- [GitHub Actions](https://github.com/features/actions)
-- [OpenWrt](https://github.com/openwrt/openwrt)
-- [X-WRT](https://github.com/x-wrt/x-wrt)
-- [Lean's OpenWrt](https://github.com/coolsnowwolf/lede)
-- [tmate](https://github.com/tmate-io/tmate)
-- [mxschmitt/action-tmate](https://github.com/mxschmitt/action-tmate)
-- [csexton/debugger-action](https://github.com/csexton/debugger-action)
-- [Cowtransfer](https://cowtransfer.com)
-- [WeTransfer](https://wetransfer.com/)
-- [Mikubill/transfer](https://github.com/Mikubill/transfer)
-- [softprops/action-gh-release](https://github.com/softprops/action-gh-release)
-- [ActionsRML/delete-workflow-runs](https://github.com/ActionsRML/delete-workflow-runs)
-- [dev-drprasad/delete-older-releases](https://github.com/dev-drprasad/delete-older-releases)
-- [peter-evans/repository-dispatch](https://github.com/peter-evans/repository-dispatch)
+## P.S
+Сборка собиралась под себя, чистый Openwrt с установленными зависимостями для установки sing-box и luci-app-homeproxy, эти пакеты ставятся отдельно так как их нет в репозитории X-WRT.
 
 ## License
 
