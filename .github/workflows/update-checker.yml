@@ -15,10 +15,8 @@ env:
   REPO_URL: https://github.com/x-wrt/x-wrt
   REPO_BRANCH: master
 
-on:
+  repository_dispatch:
   workflow_dispatch:
-  schedule:
-    - cron: 0 19 * * 5
 
 jobs:
   check:
